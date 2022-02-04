@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #F2F2F2;
+}
+
+
+
+
+.margen{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+
+    background: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PERFIL*/
+
+.perfil-portada{
+    width: 70%;
+    height: 220px;
+    margin: 0 auto;
+
+
+    background: white;
+    position: relative;
+
+
+}
+
+
+.portada-img{
+    max-width: 1024px;
+    width: 100%;
+    height: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+
+
+
+
+.logo{
+    width: 200px;
+    height: 200px;
+
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(40%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.logo img{
+    width: 140px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    border-radius: 100px;
+
+}
+
+.logo p{
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 7px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.redes{
+    display: flex;
+    height: 20px;
+
+    width: 100%;
+    justify-content: space-between;
+}
+
+.whatsapp{
+    background: #40E95F;
+    width: 60px;
+    height: 30px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.whatsapp:hover{
+    background: #5ffa7b;
+
+}
+
+
+.whatsapp .wsp{
+    color: white;
+    width: 20px;
+}
+
+
+
+
+
+.facebook{
+    background: #0093FD;
+    width: 60px;
+    height: 30px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook .face{
+    color: white;
+    width: 10px;
+}
+
+
+
+.facebook:hover{
+    background: #32aaff;
+
+}
+
+
+
+
+
+.instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    width: 60px;
+    height: 30px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instagram .insta{
+    color: white;
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.categoriash2{
+    margin-top: 180px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+
+
+
+
+.todascategorias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.contenedor-categoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: 10px;
+
+    width: 120px;
+    height: 180px;
+
+    justify-content: center;
+
+    border: 2px solid transparent;
+    margin-top: 20px;
+
+    transition: 0.5s;
+}
+
+.contenedor-categoria:hover{
+    border: 2px solid #FDCEE5;
+
+}
+
+.seleccionada{
+    border: 2px solid #FDCEE5;
+
+
+}
+
+
+.contenedor-todascategorias{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.circulo-categoria{
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+
+}
+
+
+.circulo-categoria img{
+    width: 100%;
+    border-radius: 100px;
+
+
+}
+
+
+
+.text-categorias{
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.productos{
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+
+
+
+
+
+/*PRODUCTOS*/
+.productosh2{
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+
+.contenedor-productos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.item{
+    padding: 15px;
+    border-radius: 13px;
+    margin-bottom: 20px;
+    margin-right: 3px;
+    
+    width: 180px;
+
+
+    transition: all 0.7s;
+}
+
+
+
+
+
+.contenedorimagenitem{
+
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+
+    margin-bottom: 8px;
+
+}
+
+.contenedorimagenitem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+
+.cotenedordescrip{
+    max-width: 160px;
+    height: 53px;
+
+}
+
+.cotenedordescrip p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #828282;
+
+    
+}
+
+
+
+.contenedorprecio{
+    margin-bottom: 8px;
+
+}
+
+.contenedorprecio p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+
+.contenedortalla{
+    display: flex;
+    margin-bottom: 12px;
+
+
+}
+
+.contenedortalla p{
+    background: #FADCEB;
+    margin-right: 5px;
+    color: black;
+    border-radius: 4px;
+    font-size: 13px;
+
+    padding: 4px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.contenedorwsp a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+
+    border-radius: 8px;
+    height: 33px;
+
+    font-size: 14px;
+
+    background: #40E95F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+
+
+}
+
+.contenedorwsp a:hover{
+    background: #5ffa7b;
+
+}
+
+.svgwsp{
+    width: 14px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background: #FADCEB;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 90px;
+}
+
+footer a{
+    color: black;
+}
